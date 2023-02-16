@@ -20,7 +20,7 @@
 	double *x=Data[0].data();
 	double *y=Data[1].data();
 	
-	//Highlighting of the points just for a better visualisation of the slection
+	//Highlighting of the points just for a better visualisation of the selection
 	TGraph *G2=new TGraph(Data[0].size(),x,y);
 	G2->SetMarkerColor(kRed);
 	G2->Draw("PSAME");
